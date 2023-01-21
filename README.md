@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS operations
     id                      INT             NOT    NULL    AUTO_INCREMENT        COMMENT    '',
     subclassification_id    INT             NOT    NULL    DEFAULT    0          COMMENT    '',
     type                    ENUM('income'
-                                ,'outcome')  NOT    NULL    DEFAULT    'egreso'   COMMENT    '',
+                                ,'outcome') NOT    NULL    DEFAULT    'outcome'  COMMENT    '',
     amount                  FLOAT           NOT    NULL    DEFAULT    0          COMMENT    '',
     description             VARCHAR(512)           NULL    DEFAULT    NULL       COMMENT    '',
     created_at              TIMESTAMP       NOT    NULL    DEFAULT    NOW()      COMMENT    '',
