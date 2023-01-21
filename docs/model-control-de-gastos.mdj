@@ -707,7 +707,7 @@
 							"top": 272,
 							"width": 137,
 							"height": 41,
-							"text": "type: ENUM\n[ ingreso | egreso ]"
+							"text": "type: ENUM\n[ income | income ]"
 						},
 						{
 							"_type": "UMLNoteLinkView",
