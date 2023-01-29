@@ -186,3 +186,10 @@ VALUES
     (014,"Deuda otro 5"                   ,    NULL,    NULL,    NOW());
 
 -- ****************************************************************************
+-- * INSERTS TABLE OPERATIONS
+-- ****************************************************************************
+INSERT INTO operations (subclassification_id, type, amount, description, created_at)
+VALUES
+(1, 'income' ,  100, 'Ingreso demo', now()),
+(2, 'outcome', -100, 'Outcome demo', now());
+-- ****************************************************************************
